@@ -1,0 +1,197 @@
+/* header part styles*/
+body {
+    font-family: 'Poppins',
+        sans-serif;
+}
+
+.header-banner {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 70px;
+    width: 531px;
+    height: 240px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    line-height: 80px;
+
+
+}
+
+.header-description {
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    width: 506px;
+    height: 78px;
+    margin-bottom: 60px;
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: black;
+    color: white;
+    width: 1321px;
+    height: 646px;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 50px;
+    border-radius: 30px;
+
+}
+
+.header-left-part {
+    width: 531px;
+    height: 437px;
+    margin-left: 97px;
+    margin-top: 97px;
+    margin-bottom: 111px;
+
+
+
+}
+
+.header-right-part {
+    width: 581px;
+    height: 613px;
+    align-items: stretch;
+    margin-top: 33px;
+
+}
+
+.header-right-part img {
+    width: 100%;
+}
+
+.watch-now-btn {
+    text-decoration: none;
+    color: white;
+    width: 187px;
+    height: 56px;
+    background: #DD0000;
+    border-radius: 5px;
+    padding: 16px 25px;
+    /* display: flex;
+    flex-direction: row; */
+    gap: 15px;
+    margin-top: 100px;
+}
+
+/* --------------------------body styles---------------- */
+.body-section {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    column-gap: 24px;
+
+}
+
+/* -------menubar styles------ */
+.menulist {
+    width: 312px;
+    height: 312px;
+    padding: 20px;
+
+    background: #161616;
+    border-radius: 10px;
+
+}
+
+.menus {
+
+    width: 252px;
+    height: 252px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 30px;
+    /* align-items: center; */
+
+
+
+
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+
+    line-height: 50px;
+    font-size: 20px;
+
+
+
+}
+
+.menu {
+    width: 252px;
+    height: 64px;
+    padding: 5px;
+    background-color: white;
+
+    text-align: center;
+    border-radius: 10px;
+    justify-content: center;
+
+
+}
+
+#blog-btn {
+    color: white;
+    background-color: #DD0000;
+}
+
+/* card style */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    row-gap: 24px;
+}
+
+.card {
+    width: 312px;
+    height: 362px;
+    border: 1px solid lightgray;
+
+}
+
+.card-info {
+    padding-left: 20px;
+}
+
+.card-btn {
+    width: 100px;
+    height: 32px;
+    border: 0.5px solid gray;
+    background-color: transparent;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 5px;
+}
+
+.card-duration {
+    display: flex;
+    column-gap: 30px;
+    color: rgba(22, 22, 22, 0.7);
+}
+
+.card-title {
+    width: 272px;
+    height: 54px;
+
+
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+}
